@@ -10,6 +10,7 @@ from homeassistant.core import callback, HomeAssistant
 import serial_asyncio_fast as serial_asyncio
 from serial import SerialException
 
+from .const import DOMAIN
 
 _LOGGER = logging.getLogger(DOMAIN).getChild("config_flow")
 

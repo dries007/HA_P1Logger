@@ -1,0 +1,4 @@
+# Use local for development only, not for deployment.
+homeassistant
+pyserial-asyncio
+voluptuous

@@ -1,0 +1,19 @@
+{
+  "domain": "dries007_p1",
+  "name": "P1 Logger",
+  "codeowners": [
+    "@dries007"
+  ],
+  "loggers": [
+    "dries007_p1"
+  ],
+  "integration_type": "device",
+  "config_flow": true,
+  "single_config_entry": true,
+  "documentation": "https://www.home-assistant.io/integrations/dries007_p1",
+  "iot_class": "local_push",
+  "requirements": [
+    "pyserial-asyncio-fast==0.14"
+  ],
+  "version": "0.2.0"
+}

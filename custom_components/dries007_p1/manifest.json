@@ -1,20 +1,14 @@
 {
   "domain": "dries007_p1",
   "name": "P1 Logger",
-  "codeowners": [
-    "@dries007"
-  ],
-  "loggers": [
-    "dries007_p1"
-  ],
-  "integration_type": "device",
+  "codeowners": ["@dries007"],
   "config_flow": true,
-  "single_config_entry": true,
   "documentation": "https://github.com/dries007/HA_P1Logger",
-  "issue_tracker": "https://github.com/dries007/HA_P1Logger/issues",
+  "integration_type": "device",
   "iot_class": "local_push",
-  "requirements": [
-    "pyserial-asyncio-fast==0.14"
-  ],
+  "issue_tracker": "https://github.com/dries007/HA_P1Logger/issues",
+  "loggers": ["dries007_p1"],
+  "requirements": ["pyserial-asyncio-fast==0.14"],
+  "single_config_entry": true,
   "version": "0.2.2"
 }

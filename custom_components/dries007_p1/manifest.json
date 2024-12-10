@@ -10,7 +10,8 @@
   "integration_type": "device",
   "config_flow": true,
   "single_config_entry": true,
-  "documentation": "https://www.home-assistant.io/integrations/dries007_p1",
+  "documentation": "https://github.com/dries007/HA_P1Logger",
+  "issue_tracker": "https://github.com/dries007/HA_P1Logger/issues",
   "iot_class": "local_push",
   "requirements": [
     "pyserial-asyncio-fast==0.14"
